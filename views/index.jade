@@ -1,40 +1,50 @@
 extends layout
 
 block content
-  div.container-narrow
-    div.masthead
-      h3.muted fuck yea!
-    div.jumbotron
-      h1 Anson Chu
-      p.lead Welcome to my personal webpage bitches! 
+  header#sidebar
+    img#headshot(src='/images/anson.jpg')
+    h1= title
+    p.lead 
+      I am a developer, philosopher and author!
+  
+    div.support
+      h4 
+        a salesforce
+      p under UX/Marketing building demos and protoypes. (we are hiring btw!)
 
-    div.row-fluid.marketing
-      div.span6
-        h4 salesforce
-        p it's the most innovative company in the world!
+      h4 
+        a san francisco
+      p still don't get why people call it "the city". i still love hong kong
 
-        h4 san francisco
-        p still don't get why people call it "the city". pretty cool, though I do miss hong kong
+      h4 
+        a codez <3
+      p current fav stack: node, express, coffeescript, stylus, jade, backbone, hogan 
 
-      div.span6
-        h4 node express stylus jade backbone
-        p pretty cool stuff, if you havent already played around with it
+      h4 
+        a kumikoda on github
+      p current side project is this website!
 
-        h4 kumikoda on github
-        p git commit -am "FUCK"
+      h4 
+        a @ansonschu 
+        a @haskellcat
+      p I tweet about technology (mostly). I post pictures of myself and cool shizzles
 
-      div.span6
-        h4 basketball, swimming, yoga and lifting
-        p working on my musculs
+      h4
+        a i like to read 
+      p catch 22, 1984, fahrenheit 451, V, brothers karamazov, lolita. Anything about dystopias or existentialism.
 
-    
-        h4 @ansonschu @haskellcat
-        p I tweet (mostly) about technology, i post pictures of myself and cool shizzles
-      div.span6
-        h4 heroes of newerth
-        p look me up @kumikoda on channel good food
+      h4
+        a i like to write 
+      p check out my personal blog!
 
-      
+          
+
+
+  section#river
+    article
+      header
+        h2 Item 1r
+      p article Look what I did here!  
 
 
   

@@ -1,32 +1,33 @@
+html,
 body {
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding: 0;
+  margin: 0;
+  height: 100%;
 }
-/* Custom container */
-.container-narrow {
-  margin: 0 auto;
-  max-width: 700px;
+header#sidebar {
+  position: fixed;
+  width: 23%;
+  padding: 1.5%;
+  z-index: 1;
+  height: 100%;
+  border-right: 1px solid #e3e3e3;
 }
-.container-narrow > hr {
-  margin: 30px 0;
+header#sidebar #headshot {
+  height: 250px;
+  border-radius: 100px;
 }
-/* Main marketing message and sign up button */
-.jumbotron {
-  margin: 60px 0;
-  text-align: center;
+section#river {
+  position: relative;
+  margin-left: 26%;
+  background-color: #fff;
 }
-.jumbotron h1 {
-  font-size: 72px;
-  line-height: 1;
+section#river article {
+  border-bottom: 1px solid #e3e3e3;
 }
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+section#river article header {
+  padding: 10px 50px;
+  border-bottom: 1px solid #e3e3e3;
 }
-/* Supporting marketing content */
-.marketing {
-  margin: 60px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
+section#river article p {
+  padding: 30px 50px;
 }
